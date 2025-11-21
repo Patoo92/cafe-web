@@ -1,0 +1,35 @@
+{
+  "name": "Category",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nombre de la categor\u00eda"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL slug"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descripci\u00f3n de la categor\u00eda"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Imagen de la categor\u00eda"
+    },
+    "parent_category": {
+      "type": "string",
+      "description": "Categor\u00eda padre (si aplica)"
+    },
+    "order": {
+      "type": "number",
+      "description": "Orden de visualizaci\u00f3n",
+      "default": 0
+    }
+  },
+  "required": [
+    "name",
+    "slug"
+  ]
+}

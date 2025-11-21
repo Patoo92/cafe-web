@@ -1,0 +1,35 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nombre del producto"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL slug"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descripci\u00f3n del producto"
+    },
+    "price": {
+      "type": "number",
+      "description": "Precio del producto"
+    },
+    "price_range_min": {
+      "type": "number",
+      "description": "Precio m\u00ednimo (si tiene variantes)"
+    },
+    "price_range_max": {
+      "type": "number",
+      "description": "Precio m\u00e1ximo (si tiene variantes)"
+    },
+    "category_id": {
+      "type": "string",
+      "description": "ID de la categor\u00eda"
+    },
+    "image_url": {
+      "type": "string",
+ 
